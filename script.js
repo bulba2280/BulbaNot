@@ -15,7 +15,7 @@ downloadBtn.addEventListener('click', () => {
     const a = document.createElement('a');
     
     a.href = url;
-    a.download = 'заметка.txt';
+    a.download = 'текст.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
